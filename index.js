@@ -138,6 +138,14 @@ instance.prototype.config_fields = function () {
 			width: 6,
 			default: '192.168.0.1',
 			regex: self.REGEX_IP
+		},
+		{
+			type: 'textinput',
+			id: 'port',
+			label: 'Port',
+			width: 4,
+			default: '8023',
+			regex: self.REGEX_PORT,
 		}
 	]
 };
