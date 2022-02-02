@@ -164,7 +164,7 @@ instance.prototype.destroy = function() {
 instance.prototype.actions = function() {
 	var self = this;
 
-	self.system.emit('instance_actions', self.id, {
+	self.setActions({
 
 		'me_select_pgm': {
 			label: 'ME PGM Output',
